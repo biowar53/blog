@@ -14,3 +14,19 @@ blog_posts = [
         'content': 'Содержание статьи 2.'
     }
 ]
+
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+# Пример данных блога (замените их на свои)
+blog_posts = [
+    {
+        'title': 'Заголовок статьи 1',
+        'content': 'Содержание статьи 1.'
+    },
+    {
+        'title': 'Заголовок статьи 2',
+        'content': 'Содержание статьи 2.'
+    }
+]
